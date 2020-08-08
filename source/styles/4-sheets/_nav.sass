@@ -1,0 +1,24 @@
+// ==================================================
+// Site Header Nav
+// ==================================================
+
+nav
+    margin-bottom: $math-base * 2vw
+    ul
+        display: flex
+        flex-direction: column
+        justify-content: space-around
+        list-style: none
+        padding: 0
+        @include query(tablet-min)
+            flex-direction: row
+            justify-content: space-between
+    li
+        padding: 0 .2rem
+        a
+            display: inline-block
+            padding: 1rem 0.75rem
+            border-radius: .5rem
+            &:hover
+                background-color: $color-grey
+                color: $color-base

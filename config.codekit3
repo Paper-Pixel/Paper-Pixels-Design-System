@@ -82,7 +82,7 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"/source/styles/atoms/_typography.sass": {
+	"/source/styles/1-recipe/_mixins.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -90,12 +90,12 @@
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/build/styles/atoms/_typography.css",
+		"oAP": "/build/styles/1-recipe/_mixins.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
 		},
-	"/source/styles/helpers/_mixins.sass": {
+	"/source/styles/1-recipe/_variables.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -103,12 +103,12 @@
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/build/styles/helpers/_mixins.css",
+		"oAP": "/build/styles/1-recipe/_variables.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
 		},
-	"/source/styles/helpers/_variables.sass": {
+	"/source/styles/2-tools/_normalize.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -116,12 +116,12 @@
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/build/styles/helpers/_variables.css",
+		"oAP": "/build/styles/2-tools/_normalize.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
 		},
-	"/source/styles/layout/_html.sass": {
+	"/source/styles/3-fibers/_typography.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -129,12 +129,12 @@
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/build/styles/layout/_html.css",
+		"oAP": "/build/styles/3-fibers/_typography.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
 		},
-	"/source/styles/layout/_layout.sass": {
+	"/source/styles/4-sheets/_nav.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -142,7 +142,46 @@
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/build/styles/layout/_layout.css",
+		"oAP": "/build/styles/4-sheets/_nav.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/source/styles/5-reams/_html.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/build/styles/5-reams/_html.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/source/styles/5-reams/_layout.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/build/styles/5-reams/_layout.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/source/styles/_pressCheck.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/build/styles/_pressCheck.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -156,19 +195,6 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/build/styles/source.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/source/styles/tools/_normalize.sass": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 2,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/build/styles/tools/_normalize.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
