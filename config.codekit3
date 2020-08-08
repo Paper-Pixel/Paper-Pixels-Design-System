@@ -82,6 +82,14 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"/source/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/build/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"/source/styles/1-recipe/_mixins.sass": {
 		"aP": 0,
 		"bl": 0,
