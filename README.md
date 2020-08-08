@@ -2,6 +2,10 @@
 
 Pixel Starter Package. This is compiling all of my custom styles I copy and paste around my projects. _Please feel free to copy, remix, submite a PR_ Right now this is optimized for my workflow and neuro thought patterns.
 
+## Alpha Code
+
+This code is in an Alpha state. Untill it settles down no promises on breaking changes. The first beta edition of this code will pay attention and work to not have breaking changes. Right now no such promises can be made.
+
 ## How is this built?
 
 HTML is being compiled from [PUG][pug-link] and CSS is being compiled from [SASS][sass-link], Still just using Vanilla Javascript with a sprinkeling of ES6.
@@ -19,11 +23,36 @@ I do not have this set up as a template or packege yet. To hit the ground runnin
 
 # Working with the [SASS][sass-link] files
 
+The SASS files are written with the intent that any css class names declared in the HTML structure should be extending the styles declaired for semantic markup.
+
+**HTML Markup**
+
+```
+    <section>
+        <artical>
+            <h1>I am a normal Title</h1>
+            <h2 class='h1 bold'>
+                I am a Title with the style of an h1 and bold text
+            </h2>
+        </artical>
+    </section>
+```
+
+**PUG Markup**
+
+```
+    section
+        artical
+            h1 I am a normal Title
+            h2(class='h1 bold') I am a Title with the style of an h1 and bold text
+```
+
 For maximum effect, I recomend altering the varibles located in the `source/styles/helpers/_variables.sass` file.
 
 ## Availible Varibles
 
-_Colors_
+#### Colors
+
 `$color-white` Default White
 
 `$color-primary` Primary Brand color
@@ -38,6 +67,24 @@ _This is a weird functionality, and should be updated to seperate these_
 `$color-base` This is the darkest color in the pallet. _Needs to be refactored as the text color and background color need to be seperated_
 
 `$color-grey` Default 3.0 contrast grey.
+
+## Mixins
+
+**The mixins for this project need to be refactored**
+
+## Load Order
+
+If you would like to update the order all of the parcel sass files load you can find them `source/styles/source.sass`
+
+This will also let you add new Sass files to the load order.
+
+# Working with the [PUG][pug-link] files
+
+The PUG files are created as components. These components can be referenced and brought in to quickly build clean markup for your pages.
+
+# Working with JS
+
+No specail functions written for this yet. I would like to keep js down to a minimum for right now.
 
 <!-- ======= Links ======= -->
 
