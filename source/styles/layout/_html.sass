@@ -1,0 +1,21 @@
+// ============================
+// HTML Layout ================
+// ============================
+html
+    background-color: $color-white
+    color: $color-base
+    font-family: $font-stack
+body
+    font-size: $type-base-size
+    line-height: 1.5
+
+@supports (font-variation-settings: normal)
+    html
+        font-family: $font-stack
+
+a, p > a
+    color: $color-primary
+    text-decoration: none
+    transition: $transition-hover
+    &:hover
+        color: $color-success

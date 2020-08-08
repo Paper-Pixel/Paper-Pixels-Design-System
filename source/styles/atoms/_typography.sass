@@ -1,0 +1,53 @@
+// =========================
+// All honesty, Learned to do this type loop from a CSS Tricks. I would like to optimize this for myself a little more.
+// =========================
+p, li, h1, h2, h3, h4,
+    // Help prevent overflow of longer text
+    word-break: break-word
+    // This next item is not suported in all languages and kinda optional
+    hyphens: auto
+    // This is ment to make my life easier formating text
+    margin-top: 0
+
+// =============================
+// Dynamic Type
+// Let make a loop, and create a variable that will update on each iteration of the loop.
+$level-size: $type-base-size
+
+// =============================
+// Working out Fluid Type
+// =============================
+
+// Remove unit for calculations
+$level-unitless: $level-size / ($level-size * 0 + 1)
+
+// Set minimum size to a percentage less than the $level-size
+// Reduction is greater for Large font Sizes (> 4m) to help
+// prevent overflow due to font-size on mobile devices
+$fluid-reduction: if($level-size > 4, 0.5, 0.33)
+$fluid-min: $level-unitless - ($fluid-reduction * $level-unitless)
+
+// Prevent dropping lower than 1rem (body font)
+$fluid-min: if($fluid-min > 1, $fluid-min, 1)
+
+//  integrate viewport units into a size option
+$fluid-scaler: ($level-unitless - $fluid-min) + 4vw
+// =============================
+
+// Now to create the loop
+@each $level in $type-levels
+  $level-size: $level-size * $type-size-ratio
+
+  // Output heading styles
+  // Assign to element and create utility class
+  h#{$level}
+    font-size: unquote("min(max(#{$fluid-min}rem, #{$fluid-scaler}), #{$level-size})")
+    line-height: calc(2px + 2ex + 2px)
+    margin-bottom: 0.65em
+
+// This outputs heading styles
+// Kinda cool, looks like it is assignd to an element and spat out.
+
+// =============================
+// Type Treatment
+// =============================
