@@ -1,6 +1,6 @@
 # Paper-Pixels-Design-System (Alpha)
 
-Pixel Starter Package. This is compiling all of my custom styles I copy and paste around my projects. _Please feel free to copy, remix, submite a PR_ Right now this is optimized for my workflow and neuro thought patterns.
+Pixel Starter Package. This is compiling all of my custom styles I copy and paste around my projects. _Please feel free to copy, remix, submite a PR._ Right now this is optimized for my workflow and neuro thought patterns.
 
 ## Alpha Code
 
