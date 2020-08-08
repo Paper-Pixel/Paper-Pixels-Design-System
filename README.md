@@ -68,6 +68,24 @@ _This is a weird functionality, and should be updated to seperate these_
 
 `$color-grey` Default 3.0 contrast grey.
 
+#### Typography
+
+`$font-stack` This defines the default font stack for your site.
+
+`$type-base-size` This defines the base measurements for the whole site. Changing this varible will have impact on padding, margins and type sizes.
+
+`$type-ratios` An array of type ratios to choose from.
+
+`$type-size-ratio` Sets the type ratio the dynamic font scale uses to scale fonts up from the `$type-base-size`.
+
+`$type-levels` Defines how many header elements styles are going to be generated.
+
+#### Transitions
+
+`$transition-all` _Default_ transition all elements.
+
+`$transition-hover` Transition of just the background element.
+
 ## Mixins
 
 **The mixins for this project need to be refactored**
