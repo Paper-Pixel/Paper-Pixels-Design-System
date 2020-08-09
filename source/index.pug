@@ -1,13 +1,11 @@
 doctype html
 html
-    head
-        //- This comment should be invisible because it has been modifid
-        title Project Title
-        include components/head.pug
-
+    include components/head.pug
     body
         include components/nav.pug
         main
+            - const title = "Title Text";
+            include components/hero.pug
             section
                 article
                     h1 h1 Project Large Title

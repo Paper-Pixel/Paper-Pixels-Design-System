@@ -196,25 +196,25 @@ p, li, h1, h2, h3, h4 {
 }
 
 h4 {
-  font-size: min(max(1rem, 4vw), 1.5rem);
+  font-size: min(max(1rem, 4vw), 1.414rem);
   line-height: calc(2px + 2ex + 2px);
   margin-bottom: 0.65em;
 }
 
 h3 {
-  font-size: min(max(1rem, 4vw), 2.25rem);
+  font-size: min(max(1rem, 4vw), 1.999396rem);
   line-height: calc(2px + 2ex + 2px);
   margin-bottom: 0.65em;
 }
 
 h2 {
-  font-size: min(max(1rem, 4vw), 3.375rem);
+  font-size: min(max(1rem, 4vw), 2.827145944rem);
   line-height: calc(2px + 2ex + 2px);
   margin-bottom: 0.65em;
 }
 
 h1 {
-  font-size: min(max(1rem, 4vw), 5.0625rem);
+  font-size: min(max(1rem, 4vw), 3.9975843648rem);
   line-height: calc(2px + 2ex + 2px);
   margin-bottom: 0.65em;
 }
@@ -298,4 +298,8 @@ footer {
   margin-top: auto;
   text-align: center;
   padding: 0 4vw;
+}
+
+.hero {
+  min-height: 20vh;
 }

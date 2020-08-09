@@ -62,6 +62,16 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"/source/components/hero.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/components/hero.html",
+		"oF": 0,
+		"oS": 0
+		},
 	"/source/components/nav.pug": {
 		"cB": 0,
 		"cOD": 1,
